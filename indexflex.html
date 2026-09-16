@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+
+           background-color: black;
+        }
+
+        span{
+            border-bottom: 2px solid white;
+        }
+
+        h1{
+
+            background-color: black;
+            color: white;
+
+            text-align: center;
+            font-size: 35px;
+            margin-top: 20px;
+            margin-bottom: 18px;
+        }
+
+        section{
+
+             overflow: auto;
+            background-color: rgb(33, 33, 33);
+            /* border: 1px solid red; */
+            display: flex;
+           
+            /* flex-wrap: wrap;
+            justify-content: center; */
+            gap: 13px;
+            padding: 50px 20px;
+            
+        }
+
+        section::-webkit-scrollbar{
+                display: none;
+            }
+
+        .card{
+            width: 240px;
+            /* border: 2px solid blue; */
+            text-align: center;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0px 0px 20px rgb(46, 46, 108);
+
+            flex-shrink: 0;
+        }
+
+        img{
+            width: 100%;
+            height: 300px;
+        }
+
+        h2{
+            margin-bottom: 12px;
+        }
+
+        p{
+            margin-bottom: 10px;
+            color: green;
+            font-weight: bold;
+        }
+
+        button{
+            width: 100%;
+            background-color: blue;
+            color: white;
+            padding: 12px 20px ;
+            font-weight: bold;
+            border: none;
+             box-shadow: 0px 0px 5px rgb(54, 54, 54);
+             font-size: 15px;
+             border-radius: 8px;
+        }
+
+        button:hover{
+            background-color: green;
+            cursor: pointer;
+           
+        }
+
+        article{
+            /* border: 1px solid yellow; */
+            padding: 12px;
+        }
+
+        nav{
+            /* border: 2px solid violet; */
+            background-color: rgb(0, 0, 0);
+           
+            padding: 8px 40px;
+
+            border-bottom: 1px solid white;
+
+            
+              display: flex;
+              justify-content: space-between;
+        }
+
+        nav a{
+             text-decoration: none;
+            color:white;
+        
+           margin-right: 40px;
+            font-size: 20px; 
+          
+        }
+
+        nav a:hover{
+            color: red;
+        }
+
+        h3{
+            color: white;
+        }
+
+        .home{
+          display: flex;
+           align-items: center;
+        }
+
+        .now{
+          /* border: 1px solid red; */
+          padding: 7px;
+          margin-left: 10px;
+        }
+
+        .fa-solid{
+          /* border: 1px solid red; */
+          padding: 4px;
+          color: red;
+        }
+
+        h2{
+          color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="now">
+        <h3><i class="fa-solid fa-m"></i>OVIE NOW</h3>
+      </div>
+
+      <div class="home">
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Movie</a>
+      <a href="">Contact</a>
+      </div>
+
+    </nav>
+
+    <h1><span>Trending Movie</span></h1>
+
+    
+   
+    <section >
+      
+      
+      <div class="card">
+       
+        <img src="./aladin.png" alt="" />
+
+         <article>
+        <h2>Aladdin</h2>
+        <p>&#8377, 180</p>
+        <button>Book Ticket</button>
+        </article>
+      </div>
+
+      <div class="card">
+        
+        <img src="./avatar.png" alt="" />
+
+        <article>
+        <h2>Avatar</h2>
+      <p>&#8377, 300</p>
+        <button>Book Ticket</button>
+        </article>
+      </div>
+
+      <div class="card">
+       
+        <img src="./jumagi.png" alt="" />
+
+         <article>
+        <h2>Jumagi</h2>
+        <p>&#8377, 230</p>
+        <button>Book Ticket</button>
+        </article>
+      </div>
+
+      <div class="card">
+      
+        <img src="./kalki.png" alt="" />
+
+          <article>
+        <h2>Kalki</h2>
+        <p>&#8377, 160</p>
+        <button>Book Ticket</button>
+        </article>
+      </div>
+
+      <div class="card">
+       
+        <img src="./shang-chi.png" alt="" />
+
+         <article>
+        <h2>Shang-Chi</h2>
+       <p>&#8377, 250</p>
+        <button>Book Ticket</button>
+        </article>
+      </div>
+
+      <div class="card">
+     
+        <img src="./scary.png" alt="" />
+
+           <article>
+        <h2>Scary Movie</h2>
+        <p>&#8377, 200</p>
+        <button>Book Ticket</button>
+        </article>
+      </div>
+
+        <div class="card">
+     
+        <img src="./discloureday.png" alt="" />
+
+           <article>
+        <h2>Discloure Day</h2>
+        <p>&#8377, 150</p>
+        <button>Book Ticket</button>
+        </article>
+      </div>
+    
+      <div class="card">
+     
+        <img src="./dhurandhar.png" alt="" />
+
+           <article>
+        <h2>Dhurandhar</h2>
+        <p>&#8377, 300</p>
+        <button>Book Ticket</button>
+        </article>
+      </div>
+
+      <div class="card">
+     
+        <img src="./jurassic.png" alt="" />
+
+           <article>
+        <h2>Jurassic Park</h2>
+        <p>&#8377, 170</p>
+        <button>Book Ticket</button>
+        </article>
+      </div>
+
+      <div class="card">
+     
+        <img src="./Havoc.png" alt="" />
+
+           <article>
+        <h2>T. H. Havoc</h2>
+        <p>&#8377, 210</p>
+        <button>Book Ticket</button>
+        </article>
+      </div>
+
+      <div class="card">
+     
+        <img src="./hexed.png" alt="" />
+
+           <article>
+        <h2>Hexed</h2>
+        <p>&#8377, 190</p>
+        <button>Book Ticket</button>
+        </article>
+      </div>
+
+    </section>
+
+    <footer>
+      <p style="text-align: center; color: white; margin-top: 20px;">&copy; MOVIE NOW</p>
+    </footer>
+  </body>
+</html>
