@@ -1,1 +1,1 @@
-# flex properties
+flex properties
